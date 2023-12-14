@@ -1,3 +1,6 @@
+#The provided Bash script automates the execution of a command in all open GNOME Terminal windows. #It first identifies the open terminals using the xdotool command, then iterates through each #terminal window, activates it, types a specified command ("<cmd2_name>") into the terminal, and #presses Enter to execute the command.
+
+
 #!/bin/bash
 
 #Do <cmd_name> <--it's a cmd that is triggering <cmd2_name> in open terminals
